@@ -1,5 +1,5 @@
 ---
 - name: "Restart conntrack_exporter"
   ansible.builtin.service:
-    nam: "conntrack_exporter"
+    name: "conntrack_exporter"
     state: "restarted"
