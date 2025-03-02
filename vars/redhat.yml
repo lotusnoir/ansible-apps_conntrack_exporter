@@ -1,3 +1,3 @@
 ---
-__conntrack_exporter_requirements: 
+__conntrack_exporter_requirements:
   - libnetfilter_conntrack
