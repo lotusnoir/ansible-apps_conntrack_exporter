@@ -11,5 +11,5 @@ conntrack_exporter_bind_address: "0.0.0.0"
 conntrack_exporter_listen_path: "/metrics"
 conntrack_exporter_ignore_hosts: ""
 conntrack_exporter_log_event: false
-conntrack_exporter_log_format: "netfilter" #or json
+conntrack_exporter_log_format: "netfilter"
 conntrack_exporter_debug: false
