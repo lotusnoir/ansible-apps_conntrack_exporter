@@ -9,10 +9,10 @@
   ansible.builtin.package:
     name: "{{ __conntrack_exporter_requirements }}"
     state: present
-  register: pkg_result
+  register: __pkg_result
   retries: 12
   delay: 10
-  until: pkg_result is success
+  until: __pkg_result is success
 
 - name: "Install tasks"
   when: not conntrack_exporter_bin.stat.exists or conntrack_exporter_force_install|bool
